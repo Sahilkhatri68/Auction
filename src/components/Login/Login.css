@@ -1,0 +1,461 @@
+ 
+.loginpage {
+     
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 90px 110px;
+    background: url(file:///C:/Users/user/Desktop/sunmining/sunmining/src/images/loginbg.jpg) 0 50% no-repeat;
+    background-size: contain;
+}
+@media (max-width: 1270px) {
+    .loginpage {
+        padding: 50px 10px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+   }
+}
+@media (max-width: 780px) {
+    .loginpage {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+   }
+}
+.loginpage>form {
+    width: 100%;
+    max-width: 420px;
+    min-height: 410px;
+    padding: 0 60px;
+    border: 1px solid #d2d2d2;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    -webkit-box-shadow: 0 0 40px #cacaca;
+    box-shadow: 0 0 40px #cacaca;
+    position: relative;
+}
+@media (max-width: 1270px) {
+    .loginpage>form {
+        padding: 0 30px;
+   }
+}
+@media (max-width: 780px) {
+    .loginpage>form {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+   }
+}
+@media (max-width: 480px) {
+    .loginpage>form {
+        padding: 0 20px;
+        min-height: 350px;
+   }
+}
+.loginpage>form a {
+    color: #474747;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    -webkit-transition: color .25s linear;
+    transition: color .25s linear;
+}
+.loginpage>form a:hover {
+    color: #11a84e;
+}
+.loginpage>form>div.field {
+     
+    display: flex;
+     
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 55px;
+}
+@media (max-width: 480px) {
+    .loginpage>form>div.field {
+        padding-top: 35px;
+   }
+}
+.loginpage>form>div.field label {
+    margin-bottom: 5px;
+    color: #474747;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.loginpage>form>div.field input {
+    height: 40px;
+    padding: 0 5px;
+    border-radius: 4px;
+    background: #11a84e;
+    color: #fff;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.loginpage>form>div.field input::-webkit-input-placeholder {
+    color: #fff;
+}
+.loginpage>form>div.field input::-moz-placeholder {
+    color: #fff;
+}
+.loginpage>form>div.field input:-ms-input-placeholder {
+    color: #fff;
+}
+.loginpage>form>div.field input::-ms-input-placeholder {
+    color: #fff;
+}
+.loginpage>form>div.field input::placeholder {
+    color: #fff;
+}
+.loginpage>form>div.field>div.error {
+    padding-top: 5px;
+    color: #c40020;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.loginpage>form>div.error {
+    padding-top: 5px;
+    color: #c40020;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.loginpage>form>div.info {
+    padding-top: 10px;
+}
+.loginpage>form>div.info p {
+    color: #474747;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.loginpage>form>div.btn {
+    padding-top: 35px;
+     
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.loginpage>form>div.btn button {
+     
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: 0 0;
+    cursor: pointer;
+}
+.loginpage>form>div.btn button:before {
+    content: "";
+    width: 30px;
+    height: 53px;
+    display: block;
+    background: url(file:///C:/Users/user/Desktop/sunmining/sunmining/src/images/thumb.svg) 0 0 no-repeat;
+    background-size: contain;
+}
+.loginpage>form>div.forgotbtn button:before{
+    content: "";
+    width: 30px;
+    height: 50px;
+    display: block;
+    background: url(file:///C:/Users/user/Desktop/sunmining/sunmining/src/images/fg.png) 0 0 no-repeat;
+    background-size: contain;
+}
+.loginpage>form>div.btn button span {
+    padding-left: 5px;
+    color: #474747;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    -webkit-transition: color .25s linear;
+    transition: color .25s linear;
+}
+.loginpage>form>div.btn button:hover span {
+    color: #11a84e;
+}
+@media (max-width: 1270px) {
+    .loginpage>div.title {
+        margin: 0 0 0 20px;
+   }
+}
+@media (max-width: 780px) {
+    .loginpage>div.title {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        margin: 0;
+   }
+}
+.loginpage>div.title:after {
+    content: "";
+    width: 100%;
+    min-height: 190px;
+    display: block;
+    background: url(file:///C:/Users/user/Desktop/sunmining/sunmining/src/images/wlcm.png) 50% 50% no-repeat;
+    background-size: contain;
+}
+ 
+
+@media (max-width: 380px) {
+    .loginpage>div.title:after {
+        min-height: 140px;
+   }
+}
+.loginpage>div.title h1 {
+    margin-bottom: 80px;
+    color: #474747;
+    font-size: 72px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@media (max-width: 1070px) {
+    .loginpage>div.title h1 {
+        font-size: 48px;
+   }
+}
+@media (max-width: 780px) {
+    .loginpage>div.title h1 {
+        margin-bottom: 0;
+   }
+}
+@media (max-width: 640px) {
+    .loginpage>div.title h1 {
+        font-size: 38px;
+   }
+}
+@media (max-width: 380px) {
+    .loginpage>div.title h1 {
+        font-size: 28px;
+   }
+}
+.loginpage-getLink {
+     
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 90px 110px;
+    background: url() 100% 50% no-repeat;
+    background-size: contain;
+}
+@media (max-width: 1270px) {
+    .loginpage-getLink {
+        padding: 50px 10px;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+   }
+}
+.loginpage-getLink>div.title {
+     
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+     
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.loginpage-getLink>div.title:after {
+    content: "";
+    width: 100%;
+    min-height: 190px;
+    display: block;
+    background: url() 50% 50% no-repeat;
+    background-size: contain;
+}
+@media (max-width: 380px) {
+    .loginpage-getLink>div.title:after {
+        min-height: 140px;
+   }
+}
+.loginpage-getLink>div.title h1 {
+    margin-bottom: 30px;
+    color: #474747;
+    font-size: 72px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@media (max-width: 1070px) {
+    .loginpage-getLink>div.title h1 {
+        font-size: 48px;
+   }
+}
+@media (max-width: 780px) {
+    .loginpage-getLink>div.title h1 {
+        margin-bottom: 20px;
+   }
+}
+@media (max-width: 640px) {
+    .loginpage-getLink>div.title h1 {
+        font-size: 38px;
+   }
+}
+@media (max-width: 380px) {
+    .loginpage-getLink>div.title h1 {
+        font-size: 28px;
+   }
+}
+.loginpage-getLink>div.title>form {
+    width: 100%;
+    max-width: 420px;
+    padding: 0 60px 55px 60px;
+    margin-bottom: 30px;
+    border: 1px solid #d2d2d2;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    -webkit-box-shadow: 0 0 40px #cacaca;
+    box-shadow: 0 0 40px #cacaca;
+    position: relative;
+}
+@media (max-width: 480px) {
+    .loginpage-getLink>div.title>form {
+        padding: 0 20px;
+        min-height: 220px;
+   }
+}
+.loginpage-getLink>div.title>form a {
+    color: #474747;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    -webkit-transition: color .25s linear;
+    transition: color .25s linear;
+}
+.loginpage-getLink>div.title>form a:hover {
+    color: #11a84e;
+}
+.loginpage-getLink>div.title>form>div.field {
+     
+    display: flex;
+     
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 55px;
+}
+@media (max-width: 480px) {
+    .loginpage-getLink>div.title>form>div.field {
+        padding-top: 35px;
+   }
+}
+.loginpage-getLink>div.title>form>div.field label {
+    margin-bottom: 5px;
+    color: #474747;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.loginpage-getLink>div.title>form>div.field input {
+    height: 40px;
+    padding: 0 5px;
+    border-radius: 4px;
+    background: #11a84e;
+    color: #fff;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.loginpage-getLink>div.title>form>div.field input::-webkit-input-placeholder {
+    color: #fff;
+}
+.loginpage-getLink>div.title>form>div.field input::-moz-placeholder {
+    color: #fff;
+}
+.loginpage-getLink>div.title>form>div.field input:-ms-input-placeholder {
+    color: #fff;
+}
+.loginpage-getLink>div.title>form>div.field input::-ms-input-placeholder {
+    color: #fff;
+}
+.loginpage-getLink>div.title>form>div.field input::placeholder {
+    color: #fff;
+}
+.loginpage-getLink>div.title>form>div.field>div.error {
+    padding-top: 5px;
+    color: #c40020;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.loginpage-getLink>div.title>form>div.error {
+    padding-top: 5px;
+    color: #c40020;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.loginpage-getLink>div.title>form>div.info {
+    padding-top: 10px;
+}
+.loginpage-getLink>div.title>form>div.info p {
+    color: #474747;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+.loginpage-getLink>div.title>form>div.btn {
+    padding-top: 35px;
+     
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.loginpage-getLink>div.title>form>div.btn button {
+     
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: 0 0;
+    cursor: pointer;
+}
+.loginpage-getLink>div.title>form>div.btn button:before {
+    content: "";
+    width: 30px;
+    height: 53px;
+    display: block;
+    background: url( ) 0 0 no-repeat;
+    background-size: contain;
+}
+.loginpage-getLink>div.title>form>div.btn button span {
+    padding-left: 5px;
+    color: #474747;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    -webkit-transition: color .25s linear;
+    transition: color .25s linear;
+}
+.loginpage-getLink>div.title>form>div.btn button:hover span {
+    color: #11a84e;
+}
